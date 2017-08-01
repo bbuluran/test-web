@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EFAEDBAE-D248-41BA-B1DD-C8883E184918}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{460BD49B-62F3-4EAF-ACC4-2A9395D1D5FD}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ExamHelper.Service", "src\ExamHelper.Service\ExamHelper.Service.xproj", "{3790A0D3-9F20-4150-826E-10215F8FBA35}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ExamHelper.Database", "src\ExamHelper.Database\ExamHelper.Database.xproj", "{5194DBFF-181F-40F8-967C-45CCDB9DAF84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3790A0D3-9F20-4150-826E-10215F8FBA35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3790A0D3-9F20-4150-826E-10215F8FBA35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3790A0D3-9F20-4150-826E-10215F8FBA35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3790A0D3-9F20-4150-826E-10215F8FBA35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5194DBFF-181F-40F8-967C-45CCDB9DAF84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5194DBFF-181F-40F8-967C-45CCDB9DAF84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5194DBFF-181F-40F8-967C-45CCDB9DAF84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5194DBFF-181F-40F8-967C-45CCDB9DAF84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3790A0D3-9F20-4150-826E-10215F8FBA35} = {EFAEDBAE-D248-41BA-B1DD-C8883E184918}
+		{5194DBFF-181F-40F8-967C-45CCDB9DAF84} = {EFAEDBAE-D248-41BA-B1DD-C8883E184918}
+	EndGlobalSection
+EndGlobal
